@@ -1,1 +1,1 @@
-node ..\api-tooling\async-clients\amqpjs-client\consumer.js amqp://microcks:microcks@localhost:5672 AccountService-1.1.0-user/signedup
+node ../api-tooling/async-clients/amqpjs-client/consumer.js amqp://microcks:microcks@localhost:5672 AccountService-1.1.0-user/signedup

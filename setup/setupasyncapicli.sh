@@ -1,1 +1,1 @@
-npm install -g asyncapi
+npm install -g @asyncapi/cli
