@@ -1,6 +1,4 @@
-# version: '2'
-
-name: microcks-async-lab-rabbitmq
+# name: microcks-async-lab-rabbitmq
 
 services:
   rabbitmq:
@@ -14,3 +12,15 @@ services:
     ports:
       - 5672:5672
       - 15672:15672
+
+  rabbitmq2:
+    image: rabbitmq:3.9.13-management-alpine
+    container_name: microcks-rabbitmq2
+    environment:
+      RABBITMQ_ERLANG_COOKIE: "DEEOEOEZ6MEZ8ZKJJGWP"
+      RABBITMQ_DEFAULT_USER: microcks
+      RABBITMQ_DEFAULT_PASS: microcks
+      RABBITMQ_DEFAULT_VHOST: "/"
+    ports:
+      - 5872:5672
+      - 15872:15672
