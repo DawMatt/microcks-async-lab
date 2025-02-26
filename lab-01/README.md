@@ -8,7 +8,8 @@ Steps the user through the lab described on the Microcks site: [RabbitMQ Mocking
 
 1. Start Microcks, if not already started
 
-`..\microcks-start.cmd`
+`..\microcks-start.cmd` (Win) or
+`..\microcks-start.sh` (Mac)
 
 2. Open Microcks UI, ready to import an AsyncAPI: http://localhost:8080/#/importers
 
@@ -18,4 +19,4 @@ Steps the user through the lab described on the Microcks site: [RabbitMQ Mocking
 
 5. Open up the service and view the different operations. Confirm that Mocks have been defined for each of the operations. Note the AMQP exchange that has been defined for the mocks.
 
-6. Run the `consumer.cmd` command to start an AMQP consumer to listen to the mocked data. Messages based upon the mocks from the previous step should be the received by the consumer.
+6. Run `consumer.cmd` (Win) or `consumer.sh` (Mac) to start an AMQP consumer to listen to the mocked data. Messages based upon the mocks from the previous step should be the received by the consumer.

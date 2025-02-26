@@ -32,18 +32,20 @@ The remaining pre-requisites for the labs are installed via scripts within the `
 
 | Script | Purpose |
 | --- | --- |
-| setupamqpjs.cmd | Setup an AMQP client that can be used for producing and consuming messages via AMQP. |
-| setupasyncapicli.cmd | Setup the AsyncAPI CLI used for editing and validating AsyncAPI specifications. |
+| `setupamqpjs.cmd` (Win) or<br/>`setupamqpjs.sh` (Mac) | Setup an AMQP client that can be used for producing and consuming messages via AMQP. |
+| `setupasyncapicli.cmd` (Win) or<br/>`setupasyncapicli.sh` (Mac) | Setup the AsyncAPI CLI used for editing and validating AsyncAPI specifications. |
 
 ## Environment
 
 Our Microcks environment depends upon [Docker Compose](https://docs.docker.com/compose/) and is started using:
 
-`microcks-start.cmd`
+`microcks-start.cmd` (Win) or
+`microcks-start.sh` (Mac)
 
 and stopped using:
 
-`microcks-start.cmd`
+`microcks-stop.cmd` (Win) or
+`microcks-stop.sh` (Mac)
 
 The environment and configuration are based upon those in the [Microcks Repository](https://github.com/microcks/microcks/tree/master/install/docker-compose). The Docker Compose files themselves contain only cosmetic modifications. 
 
