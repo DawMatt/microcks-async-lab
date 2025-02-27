@@ -8,8 +8,8 @@ Steps the user through the lab described on the Microcks site: [RabbitMQ Mocking
 
 1. Start Microcks, if not already started
 
-`..\microcks-start.cmd` (Win) or
-`..\microcks-start.sh` (Mac)
+    `..\microcks-start.cmd` (Win) or<br/>
+    `..\microcks-start.sh` (Mac)
 
 2. Open Microcks UI, ready to import an AsyncAPI: http://localhost:8080/#/importers
 
