@@ -18,6 +18,7 @@ The user can then step through various test labs to see the Microcks environment
 | Lab | Purpose |
 | --- | --- |
 | 01 | Simplified version of the default Microcks RabbitMQ lab |
+| 02 | Simplified version of the AsyncAPI tests from the default Microcks RabbitMQ lab |
 
 **Note**: All labs below assume the setup steps below have been completed and the environment has successfully started.
 
