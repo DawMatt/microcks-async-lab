@@ -15,7 +15,7 @@ Steps the user through the Run AsyncAPI component (step 4) of the lab described 
 
 2. Open Microcks UI, ready to import an AsyncAPI: http://localhost:8080/#/importers
 
-3. Use the `Upload` button to import the AsyncAPI found in this folder. `Choose file` to select the file, then `Upload` to register the API in Microcks.
+3. Use the `Upload` button to import the AsyncAPI found in the `lab-01` folder. `Choose file` to select the file, then `Upload` to register the API in Microcks.
 
 4. Navigate to the [`API | Services`](http://localhost:8080/#/services) page and confirm a new `Account Service` has been loaded.
 
